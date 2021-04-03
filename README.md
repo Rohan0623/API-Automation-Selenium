@@ -10,25 +10,30 @@ Versions I used:
 
 TestNG maven Dependency
 
+```
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>$LATEST-VERSION</version>
     <scope>test</scope>
 </dependency>
+```
 
 
 Selenium maven dependency
 
+```
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-chrome-driver</artifactId>
     <version>$LATEST-VERSION</version>
 </dependency>
+```
 
 
 Http maven dependencies
 
+```
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpcore</artifactId>
@@ -49,5 +54,6 @@ Http maven dependencies
     <artifactId>http-builder</artifactId>
     <version>$LATEST-VERSION</version>
 </dependency>
+```
 
         
